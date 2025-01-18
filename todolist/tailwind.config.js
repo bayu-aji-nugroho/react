@@ -11,14 +11,15 @@ export default {
           "0%":{transform: "translateX(-100%)"},
           "100%":{transform: "translateX(0px)"},
         },
-        shiftL:{
-          "0%":{transform: "translateX(0px)"},
-          "100%":{transform: "translateX(-300px)",},
+        menghilang:{
+          "0%":{opacity:"0"},
+          "100%":{opacity:"1"}
         }
       },
       animation:{
         "geser": "shift 0.5s linear",
-        "geserL":"shiftL 0.5s linear"
+        "hilang":"menghilang 0.9s linear"
+        
 
       }
     },
